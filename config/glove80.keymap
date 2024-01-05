@@ -151,12 +151,12 @@
 
         dev {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                                                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans    &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                                                                                  &trans                &trans             &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans             &trans                                                       &trans  &trans                &trans             &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &kp GRAVE          &kp TILDE                                                    &trans  &kp LEFT_BRACE        &kp RBRC           &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &kp SINGLE_QUOTE   &kp SLASH                                                    &trans  &kp LEFT_PARENTHESIS  &kp RPAR           &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &kp DOUBLE_QUOTES  &kp PIPE   &trans  &trans  &trans    &trans  &trans  &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                        &trans  &trans  &trans    &trans  &trans  &trans          &trans                &trans             &trans  &trans  &trans
             >;
         };
     };
